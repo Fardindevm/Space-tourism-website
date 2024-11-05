@@ -9,7 +9,6 @@ import Technology from './pages/Technology'
 import NotFoundPage from './pages/NotFoundPage'
 import Home from './pages/Home'
 import data from './data.json'
-
 const basePath = '/Space-tourism-website';
 
 const router = createBrowserRouter([
