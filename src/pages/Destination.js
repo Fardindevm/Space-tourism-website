@@ -26,17 +26,17 @@ const Destination = () => {
         </div>
         <div className='flex flex-col lg:flex-row lg:justify-around md:flex-row md:justify-around'>
           <div className="overflow-hidden lg:min-w-[400px] lg:min-h-[400px] transition duration-500 hover:scale-[1.04] m-auto lg:m-0">
-          <img 
-            key={animationKey}
-            src={`${process.env.PUBLIC_URL}/${selectedDestinations.images.png}`} 
-            alt={value}
-            className='transition animate-zoom-in-and-spin animate-zoom-in mt-7 lg:mt-0 lg:w-[400px] lg:h-[400px] w-[300px] lg:min-w-[300px] lg:min-h-[300px] transform-box: fill-box'  
-          />
+            <img
+              key={animationKey}
+              src={`${process.env.PUBLIC_URL}/${selectedDestinations.images.png}`}
+              alt={value}
+              className='transition animate-zoom-in-and-spin animate-zoom-in mt-7 lg:mt-0 lg:w-[400px] lg:h-[400px] w-[300px] lg:min-w-[300px] lg:min-h-[300px] transform-box: fill-box'
+            />
           </div>
           <div key={animationKey} className='lg:ml-20 lg:block flex flex-col items-center max-w-80 lg:mx-0 mx-auto lg:max-w-[490px] animate-fade-in'>
             <p className='text-gray-200 tracking-widest text-7xl lg:text-8xl mt-8 mb-8 ml-2 uppercase'>{value}</p>
             <p className='text-gray-400 m-auto text-center lg:text-left pb-[2rem] lg:pb-[3.25rem] lg:w-[400px] w-[300px]'>{selectedDestinations.description}</p>
-            <hr className='text-gray-800 lg:border-gray-800 border-gray-700 w-full'/>
+            <hr className='text-gray-800 lg:border-gray-800 border-gray-700 w-full' />
             <div className='flex justify-between w-[320px] mt-5 mb-4 lg:mb-0 max-w-[300px]'>
               <div id="travel-distance">
                 <p className='text-gray-400 uppercase text-[11.5px] tracking-widest mb-2'>avg. distance</p>

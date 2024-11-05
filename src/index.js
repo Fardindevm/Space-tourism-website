@@ -11,8 +11,6 @@ import Home from './pages/Home'
 import data from './data.json'
 
 const basePath = '/Space-tourism-website';
-console.log("Current environment:", process.env.NODE_ENV);
-console.log("Base path:", basePath);
 
 const router = createBrowserRouter([
   {
