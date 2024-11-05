@@ -39,8 +39,7 @@ const Crew = () => {
           <div id='selectedCrewImageDiv' className='flex items-center justify-center overflow-hidden h-[400px] mt-5 lg:mt-0 lg:h-[528px]'>
             <img
               key={animationKey}
-              loading='lazy'
-              src={selectedCrew.images.png}
+              src={`${process.env.PUBLIC_URL}/${selectedCrew.images.png}`}
               className='h-full w-auto object-contain animate-zoom-in'
               alt={selectedCrew.name}
             />

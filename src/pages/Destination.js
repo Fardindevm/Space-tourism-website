@@ -25,13 +25,12 @@ const Destination = () => {
           })}
         </div>
         <div className='flex flex-col lg:flex-row lg:justify-around md:flex-row md:justify-around'>
-          <div className="overflow-hidden lg:min-w-[400px] lg:min-h-[400px] transition duration-500 hover:scale-[1.03] flex items-center justify-center">
+          <div className="overflow-hidden lg:min-w-[400px] lg:min-h-[400px] transition duration-500 hover:scale-[1.04] m-auto lg:m-0">
           <img 
             key={animationKey}
-            src={selectedDestinations.images.png} 
+            src={`${process.env.PUBLIC_URL}/${selectedDestinations.images.png}`} 
             alt={value}
-            loading='lazy'
-            className='transition animate-zoom-in mt-7 lg:mt-0 lg:w-[400px] lg:h-[400px] w-[300px] lg:min-w-[300px] lg:min-h-[300px] transform-box: fill-box'  
+            className='transition animate-zoom-in-and-spin animate-zoom-in mt-7 lg:mt-0 lg:w-[400px] lg:h-[400px] w-[300px] lg:min-w-[300px] lg:min-h-[300px] transform-box: fill-box'  
           />
           </div>
           <div key={animationKey} className='lg:ml-20 lg:block flex flex-col items-center max-w-80 lg:mx-0 mx-auto lg:max-w-[490px] animate-fade-in'>

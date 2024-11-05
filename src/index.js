@@ -10,6 +10,10 @@ import NotFoundPage from './pages/NotFoundPage'
 import Home from './pages/Home'
 import data from './data.json'
 
+const basePath = '/Space-tourism-website';
+console.log("Current environment:", process.env.NODE_ENV);
+console.log("Base path:", basePath);
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,26 +24,27 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
         loader: () => ({ pageIndex: 0 })
-
       },
       {
-        path: "/destination",
+        path: "destination",
         element: <Destination />,
         loader: () => ({ destinations: data.destinations, pageIndex: 1 })
       },
       {
-        path: "/crew",
+        path: "crew",
         element: <Crew />,
         loader: () => ({ crew: data.crew, pageIndex: 2 })
       },
       {
-        path: "/technology",
+        path: "technology",
         element: <Technology />,
         loader: () => ({ technology: data.technology, pageIndex: 3 })
       }
     ]
   }
-])
+], {
+  basename: basePath
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -47,7 +52,3 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

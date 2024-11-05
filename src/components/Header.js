@@ -20,8 +20,7 @@ const Header = () => {
       <div className='lg:flex lg:jusitfy-center ml-5'>
         <NavLink to="/" className='content-center'>
           <img
-            loading='lazy'
-            src='/assets/shared/logo.svg'
+            src={`${process.env.PUBLIC_URL}/assets/shared/logo.svg`}
             alt='logo'
             className='w-[50px] h-[50px] transition-all duration-200 hover:scale-110'
           />
@@ -33,7 +32,6 @@ const Header = () => {
       {!isOpen &&
         <button className='lg:hidden fixed top-[3.65rem] right-[2.5rem] md:right-[4rem]' onClick={handleNavbar}>
           <img
-            loading='lazy'
             src={hamburger} alt={'hamburger'} />
         </button>
       }
@@ -47,7 +45,6 @@ const Header = () => {
         `} aria-labelledby="drawer-right-label">
         <button onClick={handleNavbar}>
           <img
-            loading='lazy'
             src={close} alt={'close'} />
         </button>
         <Navigation isOpen={isOpen} />

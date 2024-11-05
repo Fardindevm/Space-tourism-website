@@ -25,7 +25,6 @@ function Home() {
             <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-20 
               bg-gradient-to-t from-purple-500 to-cyan-500 transition-opacity duration-300"></div>
             <img
-              loading='lazy'
               src={Rocket}
               alt="rocket"
               className="w-16 h-16 text-white mx-auto transform rotate-5 transition-all duration-300 

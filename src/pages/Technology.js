@@ -44,10 +44,9 @@ const Technology = () => {
           <div>
             <img
               key={animationKey}
-              loading='lazy'
               className='h-[250px] lg:h-[450px] w-full lg:w-auto lg:object-contain animate-zoom-in'
               alt={value.name}
-              src={value.images.portrait}
+              src={`${process.env.PUBLIC_URL}/${value.images.portrait}`}
             />
           </div>
         </div>
