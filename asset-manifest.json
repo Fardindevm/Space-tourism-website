@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Space-tourism-website/static/css/main.d41c34b0.css",
-    "main.js": "/Space-tourism-website/static/js/main.b7fd9044.js",
+    "main.css": "/Space-tourism-website/static/css/main.9fea3b9e.css",
+    "main.js": "/Space-tourism-website/static/js/main.926636d6.js",
     "static/media/background-home-desktop.jpg": "/Space-tourism-website/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/background-destination-desktop.jpg": "/Space-tourism-website/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
     "static/media/background-home-tablet.jpg": "/Space-tourism-website/static/media/background-home-tablet.bc9efcc3281fa6801077.jpg",
@@ -12,15 +12,15 @@
     "static/media/background-home-mobile.jpg": "/Space-tourism-website/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
     "static/media/background-technology-tablet.jpg": "/Space-tourism-website/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
     "static/media/background-destination-mobile.jpg": "/Space-tourism-website/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
-    "static/media/rocket-3431.svg": "/Space-tourism-website/static/media/rocket-3431.82043c44ffe051965771182c07dae35d.svg",
+    "static/media/rocket-3431.svg": "/Space-tourism-website/static/media/rocket-3431.e9a6d088f1fbbe5ecd9e4f5258ab5d1d.svg",
     "index.html": "/Space-tourism-website/index.html",
     "static/media/icon-close.svg": "/Space-tourism-website/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/Space-tourism-website/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.d41c34b0.css.map": "/Space-tourism-website/static/css/main.d41c34b0.css.map",
-    "main.b7fd9044.js.map": "/Space-tourism-website/static/js/main.b7fd9044.js.map"
+    "main.9fea3b9e.css.map": "/Space-tourism-website/static/css/main.9fea3b9e.css.map",
+    "main.926636d6.js.map": "/Space-tourism-website/static/js/main.926636d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d41c34b0.css",
-    "static/js/main.b7fd9044.js"
+    "static/css/main.9fea3b9e.css",
+    "static/js/main.926636d6.js"
   ]
 }
