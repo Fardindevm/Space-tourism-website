@@ -1,7 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import FooterTags from './FooterTags'
+
 const Navigation = ({ isOpen }) => {
   return (
+    <>
     <ul
       className={`text-white flex justify-evenly 
        rounded-lg py-4 lg:py-0
@@ -23,6 +26,10 @@ const Navigation = ({ isOpen }) => {
         </li>
       ))}
     </ul>
+    <footer className='lg:hidden fixed bottom-0 left-0 right-0 z-40 w-full flex flex-col text-center p-4 overflow-y-auto transition-all duration-300 ease-in-out backdrop-blur-md'>
+      <FooterTags />
+    </footer>
+    </>
   )
 }
 

@@ -12,6 +12,8 @@ const Header = () => {
     setIsOpen(!isOpen)
   }
 
+  
+
   return (
     <header
       className='fixed lg:content-center lg:justify-between lg:content-center py-10 lg:w-full lg:flex'
@@ -47,7 +49,7 @@ const Header = () => {
           <img
             src={close} alt={'close'} />
         </button>
-        <Navigation isOpen={isOpen} />
+        <Navigation isOpen={isOpen}/>
       </div>
     </header>
   )
